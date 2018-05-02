@@ -1,0 +1,12 @@
+[galera_cluster]
+192.168.144.142 remote_user=devops
+# 192.168.2.221
+192.168.144.159 remote_user=devops
+# 192.168.2.156
+192.168.144.252 remote_user=devops
+# 192.168.2.226
+
+[local]
+localhost ansible_connection=local
+[appnodes]
+192.168.144.158

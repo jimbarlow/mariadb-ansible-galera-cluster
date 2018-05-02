@@ -11,6 +11,7 @@
     - 4444/tcp
     - 4567/tcp
     - 4568/tcp
+    - 3306/tcp
 
 - name: Disable SELinux
   selinux: policy=targeted state=permissive

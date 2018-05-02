@@ -1,2 +1,10 @@
 [galera_cluster]
-galera-db-[01:03] ansible_user=root
+db1 remote_user=devops 
+db2 remote_user=devops
+db3 remote_user=devops
+
+[local]
+localhost ansible_connection=local
+[appnodes]
+192.168.144.158
+
