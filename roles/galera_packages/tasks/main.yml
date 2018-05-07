@@ -3,7 +3,7 @@
   yum: 
     name: "{{ item }}"
     state: present
-    disable_gpg-check: True
+    disable_gpg_check: True
   with_items:
     - MariaDB-client
     - MariaDB-server
