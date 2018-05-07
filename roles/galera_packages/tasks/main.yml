@@ -1,6 +1,7 @@
 ---
 - name: Install MariaDB server packages
   yum: name={{ item }} state=present
+    disalbe-gpg-check: True
   with_items:
     - MariaDB-client
     - MariaDB-server
