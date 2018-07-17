@@ -1,7 +1,7 @@
 [galera_cluster]
-db1 remote_user=devops 
-db2 remote_user=devops
-db3 remote_user=devops
+db1.lab.example.com remote_user=devops 
+db2.lab.example.com remote_user=devops
+db3.lab.example.com remote_user=devops
 
 [local]
 localhost ansible_connection=local
