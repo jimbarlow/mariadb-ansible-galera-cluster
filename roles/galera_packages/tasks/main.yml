@@ -25,4 +25,4 @@
   when: "mariadb_release | version_compare('10.2', '>=')"
 
 - name: Install MySQL-python
-yum: name=MySQL-python state=present
+  yum: name=MySQL-python state=present
